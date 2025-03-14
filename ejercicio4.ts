@@ -3,7 +3,7 @@ class Repositorio<T> {
     agregar(elemento: T): void {
       this.elementos.push(elemento);
     }
-    buscarPorIndice(indice: number): T | undefined {
+    buscarPorIndice(indice: number): T {
       return this.elementos[indice];
     }
     eliminar(indice: number): void {
